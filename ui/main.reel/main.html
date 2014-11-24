@@ -27,6 +27,9 @@
             "prototype": "digit/ui/badge.reel",
             "properties": {
                 "element": {"#": "badge"}
+            },
+            "bindings": {
+                "value": {"<-": "@rangeController.organizedContent.filter{!completed}.length"}
             }
         },
         "button": {
